@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="static/js/main.js"></script>
+    <title>小团云盘 相关服务监测页面</title>
+</head>
+<body>
+    <div class="stackrow">
+        <div class="gradient-border box">
+            <p style="margin: 30px">服务器状态</p>
+        </div>
+        <div class="gradient-border box">
+            <p style="font-size: 2rem;margin: 30px">电量：<span style="color: #25DDD4;background-image:-webkit-linear-gradient(left, #17807b,#1ab0a9,#25ddd4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;" id="percent">NaN</span>%</p>
+            <div class="progress" style="width: 50%">
+                <div class="progressbar" id="pibattery" style="width: 1%"></div>
+            </div>
+        </div>
+        <div class="gradient-border box" style="height: 800px">
+            <iframe src="https://uptime.lixiaotuan.cn" style="width:100%;height:100%" frameborder="no" scrolling="no"></iframe>
+        </div>
+    </div>
+</body>
+</html>
